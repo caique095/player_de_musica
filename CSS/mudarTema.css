@@ -22,6 +22,14 @@ body.light{
     background-color: #a1a1a1;
 }
 
+.img-header_light{
+    display: none;
+}
+
+.img-header{
+   display:block;
+}
+
 .checkbox{
     opacity: 0;
     position: absolute;

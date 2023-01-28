@@ -7,21 +7,28 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/mudarTema.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <title>Music player</title>
+    <title>Listen Music player</title>
 </head>
 <body>
     <main>
 
-        <section class="toggle">
-            <div class="btnsx">
-            <input type="checkbox" id="chk" class="checkbox">
-            <label for="chk" class="label">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-                <div class="ball"></div>
-            </label>
-            </div>
-        </section>
+        <header class="header">
+            <aside>
+                <img src="imagens/logo_branca.svg" alt="Logo do Projeto" height="70" id="normal">
+                <img src="imagens/logo.svg" alt="Logo do Projeto" height="70" class="img-header_light" id="light">
+            </aside>
+
+            <aside class="toggle">
+                <div class="btnsx">
+                <input type="checkbox" id="chk" class="checkbox">
+                <label for="chk" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+                </div>
+            </aside>
+        </header>
 
         <section class="player">
             
@@ -30,7 +37,7 @@
                 </div>
                     
                 <div class="img-musica">
-                    <img src="imagens/rock.jpg" alt="">
+                    <img src="imagens/rock.jpg" alt="Capa da música" id="imagem">
                 </div>
         </section>
         <section class="musica" id="musica">
